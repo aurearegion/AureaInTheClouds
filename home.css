@@ -67,21 +67,20 @@ font-family: 'Shadows Into Light', cursive;
 */
 
 /* Style the button that is used to open and close the collapsible content */
-.collapsible {
-    background-color: #eee;
-    color: #444;
+.AureaGithubCollapsible {
+    background-color: Transparent;
     cursor: pointer;
-    padding: 18px;
+    padding: 5px;
     width: 100%;
     border: none;
-    text-align: left;
+    text-align: right;
     outline: none;
-    font-size: 15px;
+    font-size: 50px;
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-  .active, .collapsible:hover {
-    background-color: #ccc;
+  .active, .AureaGithubCollapsible:hover {
+    background-color: Transparent;
   }
   
   /* Style the collapsible content. Note: hidden by default */
@@ -90,7 +89,21 @@ font-family: 'Shadows Into Light', cursive;
     display: none;
     overflow: hidden;
     background-color: #f1f1f1;
+    width:250px;
+    position:absolute;
+    left:0px;
+    top:0px;
   }
+
+.fa-bars {
+height:50px;
+color: #444;
+}
+
+.fa-bars:hover {
+transition:ease 1s;
+text-shadow: 2px 1px 0 #8591C7, 0 2px 0 #BE9FD1;
+}
 
  /*.fa-gradient {
 	 background: -webkit-gradient(linear, left top, left bottom, from(#be9fd1), to(#5b87be));
