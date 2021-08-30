@@ -80,10 +80,10 @@ button {
     background-color: Transparent;
     cursor: pointer;
     padding: 0px;
-    padding-right:5px;
+    margin-right:5px;
     width: 55px;
     height: 55px;
-    border: none;
+    /*border: none;*/
     text-align: center;
     outline: none;
     font-size: 50px;
