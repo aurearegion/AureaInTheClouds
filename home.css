@@ -79,13 +79,15 @@ button {
 .AureaGithubCollapsible {
     background-color: Transparent;
     cursor: pointer;
-    padding: 5px;
-    width: 50px;
+    padding: 0px;
+    width: 55px;
+    height: 55px;
     border: none;
-    text-align: right;
+    text-align: center;
     outline: none;
     font-size: 50px;
     float:right;
+    border: 1px solid red;
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
