@@ -1,0 +1,44 @@
+/*=============================================== *
+A 「Pink ❀ Himalayan」PROJECT
+*=============================================== */
+
+body { 
+	font-family: open sans; 
+	font-size: 12px; 
+	color: #222; margin:0px;
+	padding:0px; 
+        background-color: var(--back1); 
+	text-align:center;
+	background-image: var(--background-link);
+	background-size: cover;
+	background-attachment: fixed;
+	scrollbar-color: var(--accent2) var(--outline);
+
+--background-link: url(https://img.nickpic.host/lhpgYY.png);
+--back1: #E6E9ED;
+--back2: #fff;
+--shadow: #666;
+--outline: #fff;
+--accent1: #BE9FD1; 
+--accent2: #8591C7;
+
+/***** MEMBER CLASS COLOR START *****/
+--g3Member: #BC2EAA;
+--g4Admin: #C77CFF;
+--g6Captain: #8F6060;
+--g7Pokemod: #C24F64;
+--g8Trainer: #7E4AA1;
+--g9Performer: #3676DD;
+--g10Breeder: #F96052;
+--g11Teamaltair: #3BCCBE;
+--g12Ranger: #8AC266;
+--g13Pedestrian: #08A169;
+--g14Champion: #7062CC;
+--g15Formerchampion: #6256B2;
+--g17Scribe: #38E07B;
+--g18Recruiter: #E7945C;
+--g19Gymleader: #4ACFA7;
+--g22Regent: #62A5CC;
+--g23Formerregent: #5086A6;
+/***** MEMBER CLASS COLOR END *****/
+}
