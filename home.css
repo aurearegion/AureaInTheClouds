@@ -80,6 +80,7 @@ button {
     background-color: Transparent;
     cursor: pointer;
     padding: 0px;
+    padding-right:5px;
     width: 55px;
     height: 55px;
     border: none;
