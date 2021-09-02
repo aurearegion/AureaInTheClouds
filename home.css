@@ -86,7 +86,6 @@ button {
     border: none;
     text-align: center;
     outline: none;
-    font-size: 50px;
     float:right;
   }
   
@@ -94,8 +93,6 @@ button {
   .active, .AureaGithubCollapsible:hover {
     background-color: rgba(230,233,237, .5);
     border-radius:5px;
-    text-align: center;
-    vertical-align: middle;
   }
   
   /* Style the collapsible content. Note: hidden by default */
