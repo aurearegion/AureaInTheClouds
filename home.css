@@ -92,8 +92,6 @@ button {
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .AureaGithubCollapsible:hover {
-    width:55px;
-    height:55px;
     background-color: rgba(230,233,237, .5);
     border-radius:5px;
     text-align: center;
