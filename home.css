@@ -18,6 +18,7 @@ body {
 --background-link: url(https://img.nickpic.host/lhpgYY.png);
 --back1: #E6E9ED;
 --back2: #fff;
+--lo-back: #E6E9ED80;
 --shadow: #666;
 --outline: #fff;
 --accent1: #BE9FD1; 
@@ -99,12 +100,13 @@ button {
     padding: 0 18px;
     display: none;
     overflow: hidden;
-    background-color: var(--back1);
+    background-color: var(--lo-back);
     width: 50vw;
     max-width:300px;
     position:absolute;
     left:0px;
     top:0px;
+    z-index:999999;
   }
 
 .fa-bars {
