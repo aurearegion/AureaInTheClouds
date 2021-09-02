@@ -15,6 +15,7 @@ body {
 	background-size: cover;
 	background-attachment: fixed;
 	scrollbar-color: var(--accent2) var(--outline);
+    
 
 --background-link: url(https://img.nickpic.host/lhpgYY.png);
 --back1: #E6E9ED;
@@ -46,6 +47,16 @@ body {
 --g23Formerregent: #5086A6;
 /***** MEMBER CLASS COLOR END *****/
 }
+
+::-webkit-scrollbar{width:5px;height: 0px;}
+::-webkit-scrollbar-track{background: none;}
+::-webkit-scrollbar-thumb{background: var(--accent2);}
+
+
+body::-webkit-scrollbar{width:7px}
+body::-webkit-scrollbar-track{background: var(--outline);}
+body::-webkit-scrollbar-thumb{background:var(--accent2); }
+
 
 /*=============================================== *
 IMPORTANT SNIPPETS - A 「Pink ❀ Himalayan」PROJECT
@@ -87,7 +98,9 @@ button {
     border: none;
     text-align: center;
     outline: none;
-    float:right;
+    position:fixed;
+    right: 5px;
+    top:5px;
   }
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
@@ -104,7 +117,7 @@ button {
     background-color: var(--lo-back);
     width: 50vw;
     max-width:300px;
-    position:absolute;
+    position:fixed;
     left:0px;
     top:0px;
     z-index:999999;
