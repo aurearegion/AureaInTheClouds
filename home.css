@@ -80,7 +80,6 @@ button {
     background-color: Transparent;
     cursor: pointer;
     padding: 0px;
-    margin: right 50px;
     width: 55px;
     height: 55px;
     border: none;
@@ -92,7 +91,8 @@ button {
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .AureaGithubCollapsible:hover {
-    background-color: Transparent;
+    background-color: var(--lo-back);
+    border-radius:5px;
   }
   
   /* Style the collapsible content. Note: hidden by default */
@@ -108,15 +108,15 @@ button {
   }
 
 .fa-bars {
+width:50px;
 height:50px;
-color: #444;
+font-size: 50px;
+color:#444;
+background: rgb(190,159,209);
+background: -moz-linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
+background: linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd1",endColorstr="#5b87be",GradientType=1);
+-webkit-background-clip: text;
+-webkit-text-stroke: 5px transparent;
 }
-
-.fa-bars:hover {
-transition:ease 0.2s;
-text-shadow: 2px 1px 0 #8591C7, 0 2px 0 #BE9FD1;
-}
-
-
- 
- 
