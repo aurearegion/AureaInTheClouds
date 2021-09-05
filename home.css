@@ -148,3 +148,5 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd1",endCo
 .AureaMenuButtons {
 border:1px solid red;
 }
+
+.AureaMenuButtons .th{font-family:honeybee;color:var(--gold_accent);font-size:30px;}
