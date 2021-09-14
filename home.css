@@ -2,9 +2,8 @@
 A 「Pink ❀ Himalayan」PROJECT
 https://aurearegion.github.io/AureaInTheClouds/home
 *=============================================== */
-
 body { 
-height:auto;
+height:100%;
 font-family: open sans; 
 font-size: 12px; 
 color: #222; margin:0px;
@@ -14,14 +13,14 @@ text-align:center;
 background-image: var(--background-link);
 background-size: cover;
 background-attachment: fixed;
-scrollbar-color: var(--accent2) var(--outline);
-overflow-y:auto;
+
     
 
 --background-link: url(https://img.nickpic.host/lhpgYY.png);
 --back1: #E6E9ED;
 --back2: #fff;
 --lo-back: #E6E9ED80;
+--lo-back2: #E6E9EDCC;
 --shadow: #666;
 --outline: #fff;
 --accent1: #BE9FD1; 
@@ -49,22 +48,43 @@ overflow-y:auto;
 /***** MEMBER CLASS COLOR END *****/
 }
 
-::-webkit-scrollbar{width:5px;height: 0px;}
-::-webkit-scrollbar-track{background: none;}
-::-webkit-scrollbar-thumb{background: var(--accent2);}
+
+/* MAIN BODY SCROLL BARS */
+html { overflow-y: scroll; scrollbar-color: #8591C7 #fff; scrollbar-width: thin;}
 
 
-body::-webkit-scrollbar{width:7px}
+body::-webkit-scrollbar{width:8px}
 body::-webkit-scrollbar-track{background: var(--outline);}
 body::-webkit-scrollbar-thumb{background:var(--accent2); }
+
+/* CUSTOM TOOL TIPS */
+#s-m-t-tooltip{
+/* basic */
+max-width:300px;
+z-index:100000;
+margin:24px 14px 7px 12px;
+/* style and design */
+padding:8px;
+background:var(--lo-back2); /* fallback if rgba not supported */
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px;
+font-family:open sans;
+font-size:12px;
+line-height:16px;
+color:var(--accent2);
+text-transform: uppercase;
+font-weight: 700;
+border:3px solid white;
+}
 
 
 /*=============================================== *
 IMPORTANT SNIPPETS - A 「Pink ❀ Himalayan」PROJECT
 
 https://aurearegion.github.io/AureaInTheClouds/home
-*=============================================== */
-/*
+*=============================================== *//*
+
 HTML COMMENT: <!-- Write your comments here -->
 
 font-family: 'Bad Script', cursive;
