@@ -65,6 +65,8 @@ IMPORTANT SNIPPETS - A 「Pink ❀ Himalayan」PROJECT
 https://aurearegion.github.io/AureaInTheClouds/home
 *=============================================== */
 /*
+HTML COMMENT: <!-- Write your comments here -->
+
 font-family: 'Bad Script', cursive;
 font-family: 'Cute Font', cursive;
 font-family: 'Delius Unicase', cursive;
@@ -150,10 +152,10 @@ border:1px solid red;
 }
 
 .AureaMenuButtons i{
-    border:1px solid purple;
-width:75px;
-height:50px;
+width:70px;
+height:75px;
 font-size: 50px;
+padding-right:5px;
 color:#444;
 background: rgb(190,159,209);
 background: -moz-linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
@@ -164,17 +166,22 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd1",endCo
 -webkit-text-stroke: 5px transparent;
 }
 
-.AureaMenuButtons span{
+.AureaMenuButtons span, .AureaMenuButtons i{
 display: flex;
 justify-content:space-between;
 align-items:center;
 }
 
-.AureaMenuButtons:visited{text-decoration:none;}
-
-.AureaMenuButtons:active{text-decoration:none;}
-.AureaMenuButtons:link{text-decoration:none;}
-
+.AureaMenuButtons i{justify-content:end;}
 
 .AureaMenuContent a:link, .AureaMenuContent a:visited, .AureaMenuContent a:link {
 color: #444; text-decoration:none;}
+
+.AureaMenuButtons b{
+font-size:50px;
+font-family: 'Cute Font', cursive;
+}
+
+.AureaMenuButtons:hover{
+background-color: var(--lo-back);
+}
