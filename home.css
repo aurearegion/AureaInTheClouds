@@ -180,6 +180,8 @@ color: #444; text-decoration:none;}
 .AureaMenuButtons b{
 font-size:50px;
 font-family: 'Cute Font', cursive;
+width:50px;
+border:1px solid green;
 }
 
 .AureaMenuButtons:hover{
