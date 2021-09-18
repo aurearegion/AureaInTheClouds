@@ -197,6 +197,20 @@ https://aurearegion.github.io/AureaInTheClouds/home
                     padding:10px;
                     
                     }
+
+                    .AureaMenuContent {
+                        display: none;
+                        overflow: hidden;
+                        background-color: var(--lo-back);
+                        width: 60vw;
+                        max-width:300px;
+                        position:fixed;
+                        left:0px;
+                        top:0px;
+                        z-index:999999;
+                        min-height:200px;
+                        border-radius: 0 0 15px 0;
+                        }
     
                 
       }
