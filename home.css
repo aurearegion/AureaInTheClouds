@@ -259,6 +259,8 @@ padding:10px;
     -webkit-background-clip: text;    
 }
 
+.linkyevent{border:1px solid red;
+    margin-top:-50px !important;}
 
 .linkyevent b{border:0px solid red;
     font-family:"yellowtail", cursive; 
@@ -289,6 +291,23 @@ padding:10px;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     }
+
+    .HimaPatchScroll{border:1px solid red;
+        width:240px;
+        height:115px;
+        overflow:auto;
+        overflow-y: scroll; 
+        scrollbar-color: #8591C7 #fff; 
+        scrollbar-width: thin;
+        text-align: justify;
+        padding:5px;
+        font-family: 'Open Sans', sans-serif;
+        }
+        
+        
+        .HimaPatchScroll::-webkit-scrollbar{width:8px}
+        .HimaPatchScroll::-webkit-scrollbar-track{background: var(--outline);}
+        .HimaPatchScroll::-webkit-scrollbar-thumb{background:var(--accent2); }
 
 /*=============================================== *
 NAV MENU - A 「Pink ❀ Himalayan」PROJECT
