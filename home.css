@@ -259,6 +259,37 @@ padding:10px;
     -webkit-background-clip: text;    
 }
 
+
+.linkyevent b{border:0px solid red;
+    font-family:"yellowtail", cursive; 
+    font-size: 35px; 
+    color:#444;
+    padding:0 15px 5px 5px;
+    -webkit-text-stroke: 3px transparent;
+    background: rgb(190,159,209);
+    background: -moz-linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
+    background: linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd1",endColorstr="#5b87be",GradientType=1);
+    -webkit-background-clip: text;   
+}
+    .linkyevent a{
+    color: var(--accent1);
+    text-decoration:none;
+    font-size: 25px; 
+    font-family:'dosis', sans serif; 
+    font-weight:bold;
+    }
+    
+    .linkyevent a:hover {
+    background: #CFA3D5;
+    background: -webkit-linear-gradient(to right, #CFA3D5 15%, #5B87BE 100%);
+    background: -moz-linear-gradient(to right, #CFA3D5 15%, #5B87BE 100%);
+    background: linear-gradient(to right, #CFA3D5 15%, #5B87BE 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    }
+
 /*=============================================== *
 NAV MENU - A 「Pink ❀ Himalayan」PROJECT
 
