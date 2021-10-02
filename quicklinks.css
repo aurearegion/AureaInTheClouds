@@ -125,18 +125,46 @@ https://aurearegion.github.io/AureaInTheClouds/home
     box-shadow: 1px 1px 20px #444;
 }
 
-.MascotSwablu{
-    width:250px;
-    height:400px;
+.LinksBox{
+    width:320px;
+    height:420px;
     background:white;
     border-radius:15px;
-    padding:10px;
 }
 
-.MascotSwablu img{
-    border:3px solid var(--back1);
-    padding:25px;
-    border-radius:360px;
+.InnerLinkParent{
+    border:0px solid red;
+    width:auto;
+    border-radius:15px;
+    height:auto;
+    color:#444;
+}
+
+.InnerLinkParent a:link, .InnerLinkParent a:visited, .InnerLinkParent a:link {
+color: #444; text-decoration:none;}
+
+.LinkButtonOOC{
+    width:316px;
+    border: 0px solid blue;
+    font-family: 'Cute Font', cursive;
+    font-size: 75px;
+    height:60px;
+    display:flex;
+    flex-flow:row nowrap;
+    justify-content:space-between;
+    padding: 5px 2px;
+}
+
+.LinkButtonOOC div{
+    border:0px solid orange;
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.LinkButtonOOC:hover{
     background: rgb(190,159,209);
     background: -moz-linear-gradient(90deg, rgba(190,159,209,.50) 0%, rgba(91,135,190,.50) 100%);
     background: -webkit-linear-gradient(90deg, rgba(190,159,209,.50) 0%, rgba(91,135,190,.50) 100%);
@@ -144,71 +172,13 @@ https://aurearegion.github.io/AureaInTheClouds/home
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd180",endColorstr="#5b87be80",GradientType=1);
 }
 
-.MascotSwablu span{
-    font-family:"yellowtail", cursive;
-    font-size: 25px;
-}
-
-.MascotSwablu a:link, .MascotSwablu a:visited, .MascotSwablu a:link {
-    text-decoration:none; color:#444;}
-
-.MascotSwablu a:hover {
-    background: #CFA3D5;
-    background: -webkit-linear-gradient(to right, #CFA3D5 15%, #5B87BE 100%);
-    background: -moz-linear-gradient(to right, #CFA3D5 15%, #5B87BE 100%);
-    background: linear-gradient(to right, #CFA3D5 15%, #5B87BE 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding:10px;
-}
-
-.SwabluScroll{
-    width:240px;
-    height:205px;
-    overflow:auto;
-    overflow-y: scroll; 
-    scrollbar-color: #8591C7 #fff; 
-    scrollbar-width: thin;
-    text-align: justify;
-    padding:5px;
-    font-family: 'Open Sans', sans-serif;
-}
 
 
-.SwabluScroll::-webkit-scrollbar{width:8px}
-.SwabluScroll::-webkit-scrollbar-track{background: var(--outline);}
-.SwabluScroll::-webkit-scrollbar-thumb{background:var(--accent2); }
-
-.ContactBox{
-    width:250px;
-    height:400px;
-    background:white;
-    border-radius:15px;
-    padding:10px;
-}
-
-.ContactBox h1{border: 0px solid red; 
-    padding:2px;
-    font-family:"yellowtail", cursive; 
-    font-size: 25px; 
-    color:#444;
-    -webkit-text-stroke: 3px transparent;
-    background: rgb(190,159,209);
-    background: -moz-linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
-    background: linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd1",endColorstr="#5b87be",GradientType=1);
-    -webkit-background-clip: text;
-    background-clip: text;
-}
-
-.fa-discord{border: 0px solid red;
-    width:60px;
+.LinkStyle{
+    font-size:50px;
+    width:55px;
     height:50px;
-    font-size: 50px;
     color:#444;
-    -webkit-text-stroke: 11px transparent;
     background: rgb(190,159,209);
     background: -moz-linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
     background: -webkit-linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
@@ -216,204 +186,14 @@ https://aurearegion.github.io/AureaInTheClouds/home
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd1",endColorstr="#5b87be",GradientType=1);
     -webkit-background-clip: text;
     background-clip: text;
-    padding: 10px;
+    -webkit-text-stroke: 7px transparent;
+    border: 0px solid green;
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding:6px;
 }
 
-.AffiliateStyle{
-    width:88px;
-    height:31px;
-    padding:25px;
-    border: 5px solid;
-    border-image: linear-gradient(90deg, rgb(207,163,213), rgb(91,135,190)) 1;
-}
-
-.GradientDivide{
-    width:250px;
-    border-bottom:5px solid #444;
-    margin:10px auto;
-    border-image: linear-gradient(90deg, rgb(207,163,213), rgb(91,135,190)) 1;}
-
-.UpdateBox{
-    width:250px;
-    height:400px;
-    background:white;
-    border-radius:15px;
-    padding:10px;
-}
-
-.UpdateTitle b{
-    padding:10px;
-    width:100%;
-    font-family:"yellowtail", cursive; 
-    font-size: 35px; 
-    color:#444;
-    -webkit-text-stroke: 3px transparent;
-    background: rgb(190,159,209);
-    background: -moz-linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
-    background: linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd1",endColorstr="#5b87be",GradientType=1);
-    -webkit-background-clip: text;
-    background-clip: text;
-}
-
-.linkyevent{border:0px solid red;
-    margin-top:-50px !important;}
-
-.linkyevent b{border:0px solid red;
-    font-family:"yellowtail", cursive; 
-    font-size: 35px; 
-    color:#444;
-    padding:0 15px 5px 5px;
-    -webkit-text-stroke: 3px transparent;
-    background: rgb(190,159,209);
-    background: -moz-linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
-    background: linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd1",endColorstr="#5b87be",GradientType=1);
-    -webkit-background-clip: text;
-    background-clip: text;
-}
-
-.linkyevent a{
-    color: var(--accent1);
-    text-decoration:none;
-    font-size: 25px; 
-    font-family:'dosis', sans serif; 
-    font-weight:bold;
-}
-    
-.linkyevent a:hover {
-    background: #CFA3D5;
-    background: -webkit-linear-gradient(to right, #CFA3D5 15%, #5B87BE 100%);
-    background: -moz-linear-gradient(to right, #CFA3D5 15%, #5B87BE 100%);
-    background: linear-gradient(to right, #CFA3D5 15%, #5B87BE 100%);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-.HimaPatchScroll{border:3px solid red;
-    width:91%;
-    height:100px;
-    overflow:auto;
-    overflow-y: scroll; 
-    scrollbar-color: #8591C7 #fff; 
-    scrollbar-width: thin;
-    text-align: justify;
-    padding:5px 10px 5px 10px;
-    font-family: 'Open Sans', sans-serif;
-    border-image: linear-gradient(90deg, rgb(207,163,213), rgb(91,135,190)) 1;
-}
-        
-    .HimaPatchScroll::-webkit-scrollbar{width:8px}
-    .HimaPatchScroll::-webkit-scrollbar-track{background: var(--outline);}
-    .HimaPatchScroll::-webkit-scrollbar-thumb{background:var(--accent2); }
-
-.HimaPatchScroll hima::before{
-    content: "\ec85";
-    font-family:'cappuccicons';
-    color: #444;
-    font-size: 25px;
-    padding:3px;
-    padding-right:10px;
-    background: rgb(255,196,230);
-    background: -moz-linear-gradient(135deg, rgba(255,196,230,1) 0%, rgba(236,151,176,1) 50%, rgba(223,82,122,1) 100%);
-    background: -webkit-linear-gradient(135deg, rgba(255,196,230,1) 0%, rgba(236,151,176,1) 50%, rgba(223,82,122,1) 100%);
-    background: linear-gradient(135deg, rgba(255,196,230,1) 0%, rgba(236,151,176,1) 50%, rgba(223,82,122,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffc4e6",endColorstr="#df527a",GradientType=1);
-    -webkit-background-clip: text; 
-    background-clip: text;
-    -webkit-text-stroke: 5px transparent;
-}
-
-.HimaPatchScroll inprogress::before{
-    content: "\f085";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    color: #444;
-    font-size: 25px;
-    padding:3px;
-    padding-right:10px;
-    background: rgb(255,196,230);
-    background: -moz-linear-gradient(135deg, rgba(255,196,230,1) 0%, rgba(236,151,176,1) 50%, rgba(223,82,122,1) 100%);
-    background: -webkit-linear-gradient(135deg, rgba(255,196,230,1) 0%, rgba(236,151,176,1) 50%, rgba(223,82,122,1) 100%);
-    background: linear-gradient(135deg, rgba(255,196,230,1) 0%, rgba(236,151,176,1) 50%, rgba(223,82,122,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffc4e6",endColorstr="#df527a",GradientType=1);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-stroke: 5px transparent;
-}
-
-.HimaPatchScroll planned::before{
-    content: "\f271";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    color: #444;
-    font-size: 25px;
-    padding:3px;
-    padding-right:10px;
-    background: rgb(255,196,230);
-    background: -moz-linear-gradient(135deg, rgba(255,196,230,1) 0%, rgba(236,151,176,1) 50%, rgba(223,82,122,1) 100%);
-    background: -webkit-linear-gradient(135deg, rgba(255,196,230,1) 0%, rgba(236,151,176,1) 50%, rgba(223,82,122,1) 100%);
-    background: linear-gradient(135deg, rgba(255,196,230,1) 0%, rgba(236,151,176,1) 50%, rgba(223,82,122,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffc4e6",endColorstr="#df527a",GradientType=1);
-    -webkit-background-clip: text;
-    background-clip: text; 
-    -webkit-text-stroke: 5px transparent;
-}
-
-.HimaPatchScroll patch::before{
-    content: "\f0a1";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    color: #444;
-    font-size: 25px;
-    padding:3px;
-    padding-right:10px;
-    background: rgb(255,196,230);
-    background: -moz-linear-gradient(135deg, rgba(255,196,230,1) 0%, rgba(236,151,176,1) 50%, rgba(223,82,122,1) 100%);
-    background: -webkit-linear-gradient(135deg, rgba(255,196,230,1) 0%, rgba(236,151,176,1) 50%, rgba(223,82,122,1) 100%);
-    background: linear-gradient(135deg, rgba(255,196,230,1) 0%, rgba(236,151,176,1) 50%, rgba(223,82,122,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffc4e6",endColorstr="#df527a",GradientType=1);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-stroke: 5px transparent;
-}
-
-.HimaPatchScroll canceled::before{
-    content: "\f0c4";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    color: #444;
-    font-size: 25px;
-    padding:3px;
-    padding-right:10px;
-    background: rgb(255,196,230);
-    background: -moz-linear-gradient(135deg, rgba(255,196,230,1) 0%, rgba(236,151,176,1) 50%, rgba(223,82,122,1) 100%);
-    background: -webkit-linear-gradient(135deg, rgba(255,196,230,1) 0%, rgba(236,151,176,1) 50%, rgba(223,82,122,1) 100%);
-    background: linear-gradient(135deg, rgba(255,196,230,1) 0%, rgba(236,151,176,1) 50%, rgba(223,82,122,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffc4e6",endColorstr="#df527a",GradientType=1);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-stroke: 5px transparent;
-}
-
-.HimaPatchScroll b{
-    font-family: 'Bad Script', cursive;
-    color: #444;
-    font-size: 25px;
-    padding:3px;
-    padding-right:10px;
-    background: rgb(255,196,230);
-    background: -moz-linear-gradient(135deg, rgba(255,196,230,1) 0%, rgba(236,151,176,1) 50%, rgba(223,82,122,1) 100%);
-    background: -webkit-linear-gradient(135deg, rgba(255,196,230,1) 0%, rgba(236,151,176,1) 50%, rgba(223,82,122,1) 100%);
-    background: linear-gradient(135deg, rgba(255,196,230,1) 0%, rgba(236,151,176,1) 50%, rgba(223,82,122,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffc4e6",endColorstr="#df527a",GradientType=1);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-stroke: 5px transparent;
-}
 
 
 /*=============================================== *
@@ -572,27 +352,72 @@ https://aurearegion.github.io/AureaInTheClouds/home
                     border-radius: 0 0 15px 0;
                     }
 
+                    .LinksBox{
+                        width:270px;
+                        height:420px;
+                        background:white;
+                        border-radius:15px;
+                    }
+
+                    .LinkButtonOOC div{
+                        font-size:53px !important;
+                    }
+
+                    .LinkButtonOOC{
+                        width:266px;
+                        /*border: 1px solid purple;*/
+                        font-family: 'Cute Font', cursive;
+                        font-size: 75px;
+                        height:60px;
+                        display:flex;
+                        flex-flow:row nowrap;
+                        justify-content:space-between;
+                        padding: 5px 2px;
+                    }
+            
+                    .LinkStyle{
+                        font-size:50px;
+                        width:55px;
+                        height:50px;
+                        color:#444;
+                        background: rgb(190,159,209);
+                        background: -moz-linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
+                        background: -webkit-linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
+                        background: linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
+                        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd1",endColorstr="#5b87be",GradientType=1);
+                        -webkit-background-clip: text;
+                        background-clip: text;
+                        -webkit-text-stroke: 7px transparent;
+                        /*border: 1px solid red;*/
+                        display: flex;
+                        justify-content:flex-end;
+                        align-items: center;
+                        padding:6px;
+                    }
+                    
+
             
   }
-  
-  /*TABLET SCREENS*/
-  @media only screen and (max-width: 1000px) {
-    body{padding:75px 25px;
-        background-image: var(--background-link);
-        background-size: cover;
-        background-attachment: fixed;}
 
-    .AureaMenuButtons b{
-        font-size:30px;
-        font-family: 'Cute Font', cursive;
-        /*border:1px solid purple;*/
+
+    /*LANDSCAPE MODE*/
+    @media only screen and (min-width: 400px) {
+        .LinkButtonOOC{
+            width:311px;
+            /*border: 1px solid blue;*/
+            font-family: 'Cute Font', cursive;
+            font-size: 75px;
+            height:60px;
+            display:flex;
+            flex-flow:row nowrap;
+            justify-content:space-between;
+            padding: 5px 2px;
         }
-            
-            .AureaMenuButtons i{
-            width:45px;
+
+        .LinkStyle{
+            font-size:50px;
+            width:55px;
             height:50px;
-            font-size: 40px;
-            padding-right:5px;
             color:#444;
             background: rgb(190,159,209);
             background: -moz-linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
@@ -601,39 +426,35 @@ https://aurearegion.github.io/AureaInTheClouds/home
             filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd1",endColorstr="#5b87be",GradientType=1);
             -webkit-background-clip: text;
             background-clip: text;
-            -webkit-text-stroke: 5px transparent;
-            /*border:1px solid red;*/
-            }
+            -webkit-text-stroke: 7px transparent;
+            /*border: 1px solid green;*/
+            display: flex;
+            justify-content:flex-end;
+            align-items: center;
+            padding:6px;
+        }
 
-            .MainAureaContent{ 
-                height:auto;
-                border:5px solid green;
-                border-image: linear-gradient(90deg, rgb(207,163,213), rgb(91,135,190)) 1;
-                min-height:500px;
-                background-color: var(--lo-back);
-                display:flex;
-                flex-flow: column wrap;
-                justify-content: space-between;
-                align-items:center;
-                gap: 20px;
-                padding:10px;
-                
-                }
+        .LinksBox{
+            width:315px;
+            height:420px;
+            background:white;
+            border-radius:15px;
+        }
+    }
 
-                .AureaMenuContent {
-                    display: none;
-                    overflow: hidden;
-                    background-color: var(--lo-back);
-                    width: 50vw;
-                    max-width:300px;
-                    position:fixed;
-                    left:0px;
-                    top:0px;
-                    z-index:999999;
-                    min-height:200px;
-                    border-radius: 0 0 15px 0;
-                    }
+    @media only screen and (max-width: 1080px) {
+        .MainAureaContent{ 
+            height:auto;
+            border:5px solid green;
+            border-image: linear-gradient(90deg, rgb(207,163,213), rgb(91,135,190)) 1;
+            min-height:500px;
+            background-color: var(--lo-back);
+            display:flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+            align-items:center;
+            gap: 20px;
+            padding:10px;
+    }
 
-            
-  }
-  
+    
