@@ -129,185 +129,7 @@ body {
     box-shadow: 1px 1px 20px #444;
     }
     
-    .MascotSwablu{
-    width:250px;
-    height:400px;
-    background:white;
-    border-radius:15px;
-    padding:10px;
-    }
     
-    .MascotSwablu img{
-    border:3px solid var(--back1);
-    padding:25px;
-    border-radius:360px;
-    background: rgb(190,159,209);
-    background: -moz-linear-gradient(90deg, rgba(190,159,209,.50) 0%, rgba(91,135,190,.50) 100%);
-    background: -webkit-linear-gradient(90deg, rgba(190,159,209,.50) 0%, rgba(91,135,190,.50) 100%);
-    background: linear-gradient(90deg, rgba(190,159,209,.50) 0%, rgba(91,135,190,.50) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd180",endColorstr="#5b87be80",GradientType=1);
-    }
-    
-    .MascotSwablu span{
-    font-family:"yellowtail", cursive;
-    font-size: 25px;
-    }
-    
-    .MascotSwablu a:link, .MascotSwablu a:visited, .MascotSwablu a:link {
-    text-decoration:none; color:black;}
-    
-    .MascotSwablu a:hover {
-    background: #CFA3D5;
-    background: -webkit-linear-gradient(to right, #CFA3D5 15%, #5B87BE 100%);
-    background: -moz-linear-gradient(to right, #CFA3D5 15%, #5B87BE 100%);
-    background: linear-gradient(to right, #CFA3D5 15%, #5B87BE 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    padding:10px;
-    }
-    
-    .SwabluScroll{
-    width:240px;
-    height:205px;
-    overflow:auto;
-    overflow-y: scroll; 
-    scrollbar-color: #8591C7 #fff; 
-    scrollbar-width: thin;
-    text-align: justify;
-    padding:5px;
-    font-family: 'Open Sans', sans-serif;
-    }
-    
-    
-    .SwabluScroll::-webkit-scrollbar{width:8px}
-    .SwabluScroll::-webkit-scrollbar-track{background: var(--outline);}
-    .SwabluScroll::-webkit-scrollbar-thumb{background:var(--accent2); }
-    
-    .ContactBox{
-        width:250px;
-        height:400px;
-        background:white;
-        border-radius:15px;
-        padding:10px;
-    }
-    
-    .ContactBox h1{border: 0px solid red; 
-        padding:2px;
-        font-family:"yellowtail", cursive; 
-        font-size: 25px; 
-        color:#444;
-        -webkit-text-stroke: 3px transparent;
-        background: rgb(190,159,209);
-        background: -moz-linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
-        background: -webkit-linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
-        background: linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd1",endColorstr="#5b87be",GradientType=1);
-        -webkit-background-clip: text;
-    }
-    
-    .fa-discord{border: 0px solid red;
-        width:50px;
-        height:50px;
-        font-size: 50px;
-        padding: 10px;
-        color:#444;
-        -webkit-text-stroke: 10px transparent;
-        background: rgb(190,159,209);
-        background: -moz-linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
-        background: -webkit-linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
-        background: linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd1",endColorstr="#5b87be",GradientType=1);
-        -webkit-background-clip: text;
-    }
-    
-    .AffiliateStyle{
-    width:88px;
-    height:31px;
-    padding:25px;
-    border: 5px solid;
-    border-image: linear-gradient(
-    90deg, rgb(207,163,213), rgb(91,135,190)) 1;
-    }
-    
-    .ContactBox hr{
-        width:250px;
-        border:3px solid;
-        margin:10px auto;
-        border-image: linear-gradient(
-        90deg, rgb(207,163,213), rgb(91,135,190)) 1;}
-    
-    .UpdateBox{
-    width:250px;
-    height:400px;
-    background:white;
-    border-radius:15px;
-    padding:10px;
-    }
-    
-    .UpdateTitle b{
-        padding:10px;
-        width:100%;
-        font-family:"yellowtail", cursive; 
-        font-size: 35px; 
-        color:#444;
-        -webkit-text-stroke: 3px transparent;
-        background: rgb(190,159,209);
-        background: -moz-linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
-        background: -webkit-linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
-        background: linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd1",endColorstr="#5b87be",GradientType=1);
-        -webkit-background-clip: text;    
-    }
-    
-    .linkyevent{border:0px solid red;
-        margin-top:-50px !important;}
-    
-    .linkyevent b{border:0px solid red;
-        font-family:"yellowtail", cursive; 
-        font-size: 35px; 
-        color:#444;
-        padding:0 15px 5px 5px;
-        -webkit-text-stroke: 3px transparent;
-        background: rgb(190,159,209);
-        background: -moz-linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
-        background: -webkit-linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
-        background: linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd1",endColorstr="#5b87be",GradientType=1);
-        -webkit-background-clip: text;   
-    }
-        .linkyevent a{
-        color: var(--accent1);
-        text-decoration:none;
-        font-size: 25px; 
-        font-family:'dosis', sans serif; 
-        font-weight:bold;
-        }
-        
-        .linkyevent a:hover {
-        background: #CFA3D5;
-        background: -webkit-linear-gradient(to right, #CFA3D5 15%, #5B87BE 100%);
-        background: -moz-linear-gradient(to right, #CFA3D5 15%, #5B87BE 100%);
-        background: linear-gradient(to right, #CFA3D5 15%, #5B87BE 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        }
-    
-        .HimaPatchScroll{border:1px solid red;
-            width:240px;
-            height:115px;
-            overflow:auto;
-            overflow-y: scroll; 
-            scrollbar-color: #8591C7 #fff; 
-            scrollbar-width: thin;
-            text-align: justify;
-            padding:5px;
-            font-family: 'Open Sans', sans-serif;
-            }
-            
-            
-            .HimaPatchScroll::-webkit-scrollbar{width:8px}
-            .HimaPatchScroll::-webkit-scrollbar-track{background: var(--outline);}
-            .HimaPatchScroll::-webkit-scrollbar-thumb{background:var(--accent2); }
     
     /*=============================================== *
     NAV MENU - A 「Pink ❀ Himalayan」PROJECT
@@ -370,6 +192,7 @@ body {
     background: linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd1",endColorstr="#5b87be",GradientType=1);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-stroke: 5px transparent;
     }
     
@@ -391,6 +214,7 @@ body {
     background: linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd1",endColorstr="#5b87be",GradientType=1);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-stroke: 5px transparent;
     }
     
@@ -446,6 +270,7 @@ body {
                 background: linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
                 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd1",endColorstr="#5b87be",GradientType=1);
                 -webkit-background-clip: text;
+                background-clip: text;
                 -webkit-text-stroke: 5px transparent;
                 /*border:1px solid red;*/
                 }
@@ -508,6 +333,7 @@ body {
                 background: linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
                 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd1",endColorstr="#5b87be",GradientType=1);
                 -webkit-background-clip: text;
+                background-clip: text;
                 -webkit-text-stroke: 5px transparent;
                 /*border:1px solid red;*/
                 }

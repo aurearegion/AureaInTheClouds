@@ -17,7 +17,7 @@ body {
 }
     
 body {
---background-link: url(https://img.nickpic.host/lhpgYY.png);
+--background-link: url(https://cdn.discordapp.com/attachments/903810536632881162/1115375271500054579/altaria_skin_banner_4x_HNRx2.png);
 --back1: #E6E9ED;
 --back2: #fff;
 --lo-back: #E6E9ED80;
@@ -506,6 +506,7 @@ color: #444; text-decoration:none;}
 .AureaMenuButtons b{font-size:50px; font-family: 'Cute Font', cursive;}
 
 .AureaMenuButtons:hover{background-color: var(--lo-back);}
+
 
 /*=============================================== *
 RESPONSIVE SECTION - A 「Pink ❀ Himalayan」PROJECT

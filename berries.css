@@ -162,6 +162,7 @@ body {
     background: -moz-linear-gradient(to right, #CFA3D5 15%, #5B87BE 100%);
     background: linear-gradient(to right, #CFA3D5 15%, #5B87BE 100%);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     padding:10px;
     }
@@ -203,6 +204,7 @@ body {
         background: linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd1",endColorstr="#5b87be",GradientType=1);
         -webkit-background-clip: text;
+        background-clip: text;
     }
     
     .fa-discord{border: 0px solid red;
@@ -218,6 +220,7 @@ body {
         background: linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd1",endColorstr="#5b87be",GradientType=1);
         -webkit-background-clip: text;
+        background-clip: text;
     }
     
     .AffiliateStyle{
@@ -256,7 +259,8 @@ body {
         background: -webkit-linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
         background: linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd1",endColorstr="#5b87be",GradientType=1);
-        -webkit-background-clip: text;    
+        -webkit-background-clip: text;
+        background-clip: text;  
     }
     
     .linkyevent{border:0px solid red;
@@ -273,7 +277,8 @@ body {
         background: -webkit-linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
         background: linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
         filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd1",endColorstr="#5b87be",GradientType=1);
-        -webkit-background-clip: text;   
+        -webkit-background-clip: text; 
+        background-clip: text;  
     }
         .linkyevent a{
         color: var(--accent1);
@@ -289,6 +294,7 @@ body {
         background: -moz-linear-gradient(to right, #CFA3D5 15%, #5B87BE 100%);
         background: linear-gradient(to right, #CFA3D5 15%, #5B87BE 100%);
         -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
         }
     
@@ -370,6 +376,7 @@ body {
     background: linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd1",endColorstr="#5b87be",GradientType=1);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-stroke: 5px transparent;
     }
     
@@ -391,6 +398,7 @@ body {
     background: linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd1",endColorstr="#5b87be",GradientType=1);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-stroke: 5px transparent;
     }
     
@@ -446,6 +454,7 @@ body {
                 background: linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
                 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd1",endColorstr="#5b87be",GradientType=1);
                 -webkit-background-clip: text;
+                background-clip: text;
                 -webkit-text-stroke: 5px transparent;
                 /*border:1px solid red;*/
                 }
@@ -508,6 +517,7 @@ body {
                 background: linear-gradient(90deg, rgba(190,159,209,1) 0%, rgba(91,135,190,1) 100%);
                 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#be9fd1",endColorstr="#5b87be",GradientType=1);
                 -webkit-background-clip: text;
+                background-clip: text;
                 -webkit-text-stroke: 5px transparent;
                 /*border:1px solid red;*/
                 }

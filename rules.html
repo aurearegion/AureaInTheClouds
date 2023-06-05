@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
                 <title>The Aurea Region Resources</title>
 <link rel="icon" type="image/png" sizes="512x512" href="https://files.jcink.net/uploads/aurearegion/favicons/Aurea_color.png">
-        <link rel="stylesheet" href="faq.css">
+        <link rel="stylesheet" href="enroute.css">
 
 <!-- MALIHU SMT TOOLTIP PLUGINS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -22,7 +22,55 @@
 <body>
 <!-- MAIN BODY CONTENT -->
 <div class="MainAureaParent">
-<div class="MainAureaContent"></div>
+<div class="MainAureaContent">
+
+  <div id="guidebook-wrapper">
+    <input id="section1_select" name="rbl-guidebook" type="radio" checked>
+    <input id="section2_select" name="rbl-guidebook" type="radio">
+    <input id="section3_select" name="rbl-guidebook" type="radio">
+    <input id="section4_select" name="rbl-guidebook" type="radio">
+    <div id="guidebook-sidebar">
+         <label id="section1_label" for="section1_select">Section 1</label>
+         <label id="section2_label" for="section2_select">Section 2</label>
+         <label id="section3_label" for="section3_select">Section 3</label>
+         <label id="section4_label" for="section4_select">Section 4</label>
+    </div>
+    <div id="section1_content" class="guide-page">
+        This is the content for the first page of the guidebook.
+     </div>
+    <div id="section2_content" class="guide-page">
+        This is the content for the second page of the guidebook.
+     </div>
+    <div id="section3_content" class="guide-page">
+        This is the content for the third page of the guidebook.
+     </div>
+    <div id="section4_content" class="guide-page">
+        This is the content for the fourth page of the guidebook.
+     </div>
+ </div>
+ 
+ <style>
+ #guidebook-wrapper { margin-bottom: 2em;border:1px solid red; }
+ #guidebook-wrapper:after { content: ''; display: block; clear: both; }
+ #guidebook-wrapper input { display: none; }
+ #guidebook-sidebar { width: 200px; border-right: 1px solid; float: left; }
+ #guidebook-sidebar label { display: block; padding: 5px 12px; border-bottom: 1px dotted; margin: 0px 15px; }
+ #guidebook-sidebar label:hover { background-color: silver }
+ .guide-page { display: none; margin-left: 215px; padding-top: 5px; }
+ 
+ #section1_select:checked ~ #section1_content,
+ #section2_select:checked ~ #section2_content,
+ #section3_select:checked ~ #section3_content,
+ #section4_select:checked ~ #section4_content { display: block; }
+ 
+ #section1_select:checked ~ #guidebook-sidebar #section1_label,
+ #section2_select:checked ~ #guidebook-sidebar #section2_label,
+ #section3_select:checked ~ #guidebook-sidebar #section3_label,
+ #section4_select:checked ~ #guidebook-sidebar #section4_label { font-weight: bold; }
+ </style>
+ 
+
+</div>
 </div>
 
 
@@ -48,7 +96,7 @@
 <a href="https://aurearegion.github.io/AureaInTheClouds/berries"><div class="AureaMenuButtons"><span><b>Berries</b> <i class="cp cp-cherry"></i></span></div></a>
 
 <a href="https://aurearegion.github.io/AureaInTheClouds/sprites"><div class="AureaMenuButtons"><span><b>Sprites</b> <i class="cp cp-pokeball"></i></span></div></a>
-</div>
+</div></div>
 
 <!-- NAV TREE COLLAPSIBLE SCRIPT -->
 <script>
@@ -76,3 +124,5 @@ for (i = 0; i < coll.length; i++) {
       });
   })(jQuery);
 </script>
+</body>
+</html>
